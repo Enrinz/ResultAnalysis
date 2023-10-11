@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import os
 
 # Leggi il file CSV
-csv_file = 'DB-12000-hybrid-25.csv'
+csv_file = 'DB-Output12000_hybrid_R101_21_100.csv'
 df = pd.read_csv(csv_file)
 
 # Crea la cartella per salvare le immagini, se non esiste
-output_folder = 'results12000_OFFS_hybrid_TEST\\trendsOFFS'
+output_folder = 'results12000_OFFS_hybrid_R101_21_100\\trendsOFFS'
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
@@ -31,7 +31,7 @@ for name, group in grouped:
     # Crea il grafico
     plt.figure()
     plt.plot(x_data, y_data, color='#077169', label='Trend')
-    plt.xlabel('Riga')
+    plt.xlabel('Iterazione')
     plt.ylabel('OFFS')
     plt.title(f'{name}')
 

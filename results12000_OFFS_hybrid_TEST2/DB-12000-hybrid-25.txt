@@ -1,0 +1,108 @@
+Instance's Name                                                     c106_21_100.txt
+Iteration                                                                     11637
+Seed                                                                            123
+Initial Solution                  [['D0', 'C20', 'C28', 'C26', 'C11', 'C6', 'D0'...
+OFIS                                                                   93728.814718
+Moves                             ['null', 'null', 'WorstDistanceDestroyCustomer...
+OFFS                                                                   93722.752791
+OF_Diff                                                                    6.061928
+Exe_Time_d-r                                                             988.581986
+Avg_Battery_Status                                                         96.84756
+Avg_SoC                                                                    0.616919
+Avg_Num_Charge                                                             0.567568
+Avg_Vehicle_Capacity                                                       0.540541
+Avg_Customer_Demand                                                            18.1
+Num_Vehicles                                                                     37
+Avg_Service_Time                                                             408.96
+Avg_Customer_TimeWindow                                                       188.2
+Var_Customer_TimeWindow                                                 5771.333333
+Avg_Customer_customer_min_dist                                              2.65246
+Var_Customer_customer_min_dist                                             1.236825
+Avg_Customer_station_min_dist                                              9.088809
+Var_Customer_station_min_dist                                             13.407625
+Avg_Customer_deposit_dist                                                 28.854812
+Var_Customer_deposit_dist                                                 150.89882
+CounterD_R                        [20, 16, 15, 21, 100, 94, 86, 124, 137, 11, 9,...
+CounterD_Rlast                    [4, 1, 2, 3, 1, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, ...
+Name: 71636, dtype: object
+Instance's Name                                                      c106_21_50.txt
+Iteration                                                                     11830
+Seed                                                                            123
+Initial Solution                  [['D0', 'C21', 'C47', 'C52', 'D0'], ['D0', 'C2...
+OFIS                                                                   45137.441497
+Moves                             ['LongestWaitingTimeDestroyStation', 'Probabil...
+OFFS                                                                   45008.240692
+OF_Diff                                                                  129.200805
+Exe_Time_d-r                                                             503.068762
+Avg_Battery_Status                                                       103.911222
+Avg_SoC                                                                    0.602712
+Avg_Num_Charge                                                             0.647059
+Avg_Vehicle_Capacity                                                       2.352941
+Avg_Customer_Demand                                                            16.4
+Num_Vehicles                                                                     17
+Avg_Service_Time                                                             408.26
+Avg_Customer_TimeWindow                                                      172.28
+Var_Customer_TimeWindow                                                 4240.817959
+Avg_Customer_customer_min_dist                                             3.840448
+Var_Customer_customer_min_dist                                             2.990774
+Avg_Customer_station_min_dist                                              8.732483
+Var_Customer_station_min_dist                                             14.167074
+Avg_Customer_deposit_dist                                                 29.832382
+Var_Customer_deposit_dist                                                  150.1316
+CounterD_R                        [50, 50, 43, 57, 237, 221, 274, 297, 394, 27, ...
+CounterD_Rlast                    [11, 5, 8, 8, 2, 3, 1, 0, 10, 0, 0, 0, 0, 0, 0...
+Name: 203829, dtype: object
+Instance's Name                                                     c107_21_100.txt
+Iteration                                                                     11999
+Seed                                                                            123
+Initial Solution                  [['D0', 'C59', 'S13', 'D0'], ['D0', 'C21', 'C1...
+OFIS                                                                   95439.924925
+Moves                             ['null', 'null', 'ZoneDestroyCustomer', 'Greed...
+OFFS                                                                   95439.153131
+OF_Diff                                                                    0.771794
+Exe_Time_d-r                                                             787.181349
+Avg_Battery_Status                                                        98.502065
+Avg_SoC                                                                    0.591111
+Avg_Num_Charge                                                             0.578947
+Avg_Vehicle_Capacity                                                       0.526316
+Avg_Customer_Demand                                                            18.1
+Num_Vehicles                                                                     38
+Avg_Service_Time                                                             408.96
+Avg_Customer_TimeWindow                                                       180.0
+Var_Customer_TimeWindow                                                         0.0
+Avg_Customer_customer_min_dist                                              2.65246
+Var_Customer_customer_min_dist                                             1.236825
+Avg_Customer_station_min_dist                                              9.088809
+Var_Customer_station_min_dist                                             13.407625
+Avg_Customer_deposit_dist                                                 28.854812
+Var_Customer_deposit_dist                                                 150.89882
+CounterD_R                        [59, 60, 53, 66, 292, 267, 340, 367, 487, 35, ...
+CounterD_Rlast                    [13, 7, 10, 10, 2, 4, 2, 0, 12, 0, 0, 0, 0, 0,...
+Name: 251998, dtype: object
+Instance's Name                                                      c107_21_50.txt
+Iteration                                                                     11378
+Seed                                                                            123
+Initial Solution                  [['D0', 'C40', 'C48', 'C47', 'C43', 'C61', 'D0...
+OFIS                                                                   45737.795658
+Moves                             ['null', 'null', 'RandomRouteDestroyCustomer',...
+OFFS                                                                   45722.530062
+OF_Diff                                                                   15.265596
+Exe_Time_d-r                                                             495.448729
+Avg_Battery_Status                                                       105.585275
+Avg_SoC                                                                    0.606309
+Avg_Num_Charge                                                             0.294118
+Avg_Vehicle_Capacity                                                       1.764706
+Avg_Customer_Demand                                                            16.8
+Num_Vehicles                                                                     17
+Avg_Service_Time                                                             408.26
+Avg_Customer_TimeWindow                                                       180.0
+Var_Customer_TimeWindow                                                         0.0
+Avg_Customer_customer_min_dist                                             3.883166
+Var_Customer_customer_min_dist                                             2.531654
+Avg_Customer_station_min_dist                                              9.109974
+Var_Customer_station_min_dist                                             13.722828
+Avg_Customer_deposit_dist                                                   29.7862
+Var_Customer_deposit_dist                                                153.757467
+CounterD_R                        [107, 108, 88, 127, 535, 456, 573, 610, 790, 5...
+CounterD_Rlast                    [21, 12, 13, 20, 3, 5, 2, 0, 20, 0, 0, 0, 0, 0...
+Name: 407377, dtype: object

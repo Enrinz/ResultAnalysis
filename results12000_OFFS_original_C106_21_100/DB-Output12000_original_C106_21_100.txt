@@ -1,0 +1,27 @@
+Instance's Name                                                     c106_21_100.txt
+Iteration                                                                     11352
+Seed                                                                             42
+Initial Solution                  [['D0', 'C42', 'C26', 'D0'], ['D0', 'C21', 'C2...
+OFIS                                                                   94366.226695
+Moves                             ['null', 'null', 'ZoneDestroyCustomer', 'Proba...
+OFFS                                                                   94365.589755
+OF_Diff                                                                    0.636941
+Exe_Time_d-r                                                            1016.733944
+Avg_Battery_Status                                                              NaN
+Avg_SoC                                                                    0.616431
+Avg_Num_Charge                                                             0.405405
+Avg_Vehicle_Capacity                                                       1.081081
+Avg_Customer_Demand                                                            18.1
+Num_Vehicles                                                                     37
+Avg_Service_Time                                                             397.12
+Avg_Customer_TimeWindow                                                       188.2
+Var_Customer_TimeWindow                                                 5771.333333
+Avg_Customer_customer_min_dist                                              2.65246
+Var_Customer_customer_min_dist                                             1.236825
+Avg_Customer_station_min_dist                                              9.088809
+Var_Customer_station_min_dist                                             13.407625
+Avg_Customer_deposit_dist                                                 28.854812
+Var_Customer_deposit_dist                                                 150.89882
+CounterD_R                        [6, 6, 9, 3, 21, 18, 16, 35, 47, 6, 4, 2, 5, 3...
+CounterD_Rlast                    [0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, ...
+Name: 23351, dtype: object
