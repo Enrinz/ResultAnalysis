@@ -1,0 +1,54 @@
+Instance's Name                                                     c106_21_100.txt
+Iteration                                                                     11012
+Seed                                                                             42
+Initial Solution                  [['D0', 'C42', 'C26', 'D0'], ['D0', 'C21', 'C2...
+OFIS                                                                   94378.982915
+Moves                             ['null', 'null', 'ZoneDestroyCustomer', 'Naive...
+OFFS                                                                   94360.928419
+OF_Diff                                                                   18.054495
+Exe_Time_d-r                                                            1052.072602
+Avg_Battery_Status                                                              NaN
+Avg_SoC                                                                    0.616431
+Avg_Num_Charge                                                             0.405405
+Avg_Vehicle_Capacity                                                       1.081081
+Avg_Customer_Demand                                                            18.1
+Num_Vehicles                                                                     37
+Avg_Service_Time                                                             397.12
+Avg_Customer_TimeWindow                                                       188.2
+Var_Customer_TimeWindow                                                 5771.333333
+Avg_Customer_customer_min_dist                                              2.65246
+Var_Customer_customer_min_dist                                             1.236825
+Avg_Customer_station_min_dist                                              9.088809
+Var_Customer_station_min_dist                                             13.407625
+Avg_Customer_deposit_dist                                                 28.854812
+Var_Customer_deposit_dist                                                 150.89882
+CounterD_R                        [6, 5, 8, 3, 17, 17, 15, 33, 44, 4, 3, 2, 6, 3...
+CounterD_Rlast                    [0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, ...
+Name: 23011, dtype: object
+Instance's Name                                                     r107_21_100.txt
+Iteration                                                                      7342
+Seed                                                                              3
+Initial Solution                  [['D0', 'C58', 'C22', 'C74', 'C56', 'C39', 'C7...
+OFIS                                                                   16919.117316
+Moves                             ['null', 'null', 'ShawDestroyCustomer', 'Greed...
+OFFS                                                                   16919.054437
+OF_Diff                                                                    0.062878
+Exe_Time_d-r                                                             585.265697
+Avg_Battery_Status                                                              NaN
+Avg_SoC                                                                    0.635504
+Avg_Num_Charge                                                             0.333333
+Avg_Vehicle_Capacity                                                       7.916667
+Avg_Customer_Demand                                                           14.58
+Num_Vehicles                                                                     12
+Avg_Service_Time                                                               9.47
+Avg_Customer_TimeWindow                                                      112.52
+Var_Customer_TimeWindow                                                 6922.191515
+Avg_Customer_customer_min_dist                                             5.210698
+Var_Customer_customer_min_dist                                             4.725881
+Avg_Customer_station_min_dist                                              6.745062
+Var_Customer_station_min_dist                                              11.93347
+Avg_Customer_deposit_dist                                                 24.947113
+Var_Customer_deposit_dist                                                  90.87025
+CounterD_R                        [59, 51, 54, 56, 227, 193, 186, 203, 285, 42, ...
+CounterD_Rlast                    [6, 5, 8, 3, 0, 2, 1, 0, 8, 0, 0, 0, 0, 0, 0, ...
+Name: 148349, dtype: object

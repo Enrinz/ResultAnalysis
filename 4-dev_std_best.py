@@ -2,7 +2,7 @@ import pandas as pd
 import statistics
 
 # Lettura del dataframe
-df = pd.read_csv('DB-Output12000_hybrid_R101_21_100.csv')
+df = pd.read_csv('DB-Output12000_S5000_S1000_hybrid.csv')
 
 # Trova gli indici dei valori "1" nel campo "Iteration"
 indices = df[df['Iteration'] == 1].index
@@ -31,7 +31,7 @@ df_list.append(last_section_df)
 min_values_dict = {}
 
 # Apri il file di testo in modalità scrittura
-with open("results12000_OFFS_hybrid_R101_21_100\dev_std_OFFS_best_hybrid.txt", "w") as file:
+with open("results12000_S5000_S1000_hybrid\dev_std_OFFS_best.txt", "w") as file:
     # Itera attraverso i dataframe divisi
     for section_df in df_list:
         # Effettua il groupby sul campo "Instance's Name" e calcola il valore minimo di "OFFS" per ogni gruppo
