@@ -56,24 +56,26 @@ for start in starts:
                 plt.plot(x_data, y_data, color='#077169', label='Trend')
                 plt.xlabel('Iterazione')
                 plt.ylabel('OFFS')
-                plt.title(f'{name}')
+                plt.title(f'{name.replace(".txt","")}, Start: {start}, Step: {step}, Tech: {tecnical}')
 
-                if start==2000:
-                    # Colora i punti in rosso se l'Iteration è nell'elenco specificato
-                    for i in range(len(iteration_data)):
-                        if iteration_data.iloc[i] in highlight_iterations:
-                            plt.scatter(x_data[i], y_data.iloc[i], color='red', marker='.', s=30, label=f'Iteration {iteration_data.iloc[i]}')
+                if tecnical=="original":pass
                 else:
-                    for i in range(len(iteration_data)):
-                        if iteration_data.iloc[i] in elements_from_5000:
-                            plt.scatter(x_data[i], y_data.iloc[i], color='red', marker='.', s=30, label=f'Iteration {iteration_data.iloc[i]}')
-  
-                # Aggiungi etichette sopra i punti Seed solo per la prima occorrenza di ciascun Seed
-                for i in range(len(seed_data)):
-                    if seed_data.iloc[i] not in seen_seeds:
-                        # Modifica il valore -10 nel parametro xytext per abbassare l'etichetta
-                        plt.annotate(f'{seed_data.iloc[i]}', (x_data[i], y_data.iloc[i]), textcoords="offset points", xytext=(0, -0.1), ha='center')
-                        seen_seeds.add(seed_data.iloc[i])
+                    if start==2000:
+                        # Colora i punti in rosso se l'Iteration è nell'elenco specificato
+                        for i in range(len(iteration_data)):
+                            if iteration_data.iloc[i] in highlight_iterations:
+                                plt.scatter(x_data[i], y_data.iloc[i], color='red', marker='.', s=30, label=f'Iteration {iteration_data.iloc[i]}')
+                    else:
+                        for i in range(len(iteration_data)):
+                            if iteration_data.iloc[i] in elements_from_5000:
+                                plt.scatter(x_data[i], y_data.iloc[i], color='red', marker='.', s=30, label=f'Iteration {iteration_data.iloc[i]}')
+    
+                    # Aggiungi etichette sopra i punti Seed solo per la prima occorrenza di ciascun Seed
+                    for i in range(len(seed_data)):
+                        if seed_data.iloc[i] not in seen_seeds:
+                            # Modifica il valore -10 nel parametro xytext per abbassare l'etichetta
+                            plt.annotate(f'{seed_data.iloc[i]}', (x_data[i], y_data.iloc[i]), textcoords="offset points", xytext=(0, -0.1), ha='center')
+                            seen_seeds.add(seed_data.iloc[i])
 
                 # Opzionale: per evitare che la legenda mostri molte volte "Iteration xxxx"
                 handles, labels = plt.gca().get_legend_handles_labels()
